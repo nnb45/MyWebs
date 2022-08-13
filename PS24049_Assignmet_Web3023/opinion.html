@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+          integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+          crossorigin="anonymous" />
+     <link rel="stylesheet" href="css/utilities.css">
+     <link rel="stylesheet" href="css/style.css">
+     <title>Bao Ngoc |</title>
+</head>
+<link rel="stylesheet" href="format.css">
+</head>
+
+<body>
+     <div class="navbar">
+          <div class="container flex">
+               <h1 class="logo">MyTech</h1>
+               <nav>
+                    <ul>
+                         <li><a href="index.html">Trang chủ</a></li>
+                         <li><a href="features.html">Mô tả</a></li>
+                         <li><a href="docs.html">Tài liệu</a></li>
+                         <li><a href="contact.html">Liên hệ</a></li>
+                         <li><a href="opinion.html">Góp ý</a></li>
+                    </ul>
+               </nav>
+          </div>
+     </div>
+
+     <section class="docs-head bg-primary py-3">
+          <div class="container grid">
+               <div>
+                    <h1 class="xl">Góp ý</h1>
+                    <p class="lead">
+                         Learn how to work with the Loruki platform
+                    </p>
+               </div>
+               <img src="images/docs.png" alt="">
+          </div>
+     </section>
+
+     <div class="form-gop-y">
+          <form action="">
+               <b><label for="name">Họ và tên: </label></b>
+               <input type="text" name="name" class="form-control">
+          </form>
+          <div>
+               <fieldset class="form-group" style="border: 0px solid black;">
+                    <b><label for="gender">Giới tính khách hàng: </label></b><br>
+                    <input type="radio" value="1" name="text"> Nữ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" value="2" name="text"> Nam
+               </fieldset>
+               <div class="form-group">
+                    <label for="date">Ngày sinh</label>
+                    <input type="date" name="date" class="form-control">
+               </div>
+
+               <!-- <div class="form-group">
+                    <label for="job">Nghề nghiệp</label>
+                    <select name="job" class="form-control">
+                         <option value="Giáo viên">Giáo viên</option>
+                         <option value="Cảnh sát">Thông dịch viên</option>
+                         <option value="Progammer">Lập trình viên</option>
+                         <option value="Bác sĩ">Bác sĩ</option>
+                         <option value="Kĩ sư">Kĩ sư</option>
+                    </select>
+               </div> -->
+               <form action="">
+                    <br><b><label for="name">Điện thoại: </label></b>
+                    <input type="text" name="phone" class="form-control"> 
+               </form>
+               <form action="">
+                    <br><b><label for="name">Email: </label></b>
+                    <input type="text" name="mail" class="form-control" placeholder="example@gmail.com" />
+               </form>
+               <div class="form-group">
+                    <br><label for="note">Ý kiến đóng góp: </label>
+                    <textarea name="note" cols="20" rows="5" class="form-control"></textarea>
+               </div>
+               <hr>
+               <div class="form-group">
+                    <input type="submit" value="Gửi" class="btn btn-primary">
+               </div>
+          </div>
+     </div>
+
+     <script>
+          !function (s, u, b, i, z) { var o, t, r, y; s[i] || (s._sbzaccid = z, s[i] = function () { s[i].q.push(arguments) }, s[i].q = [], s[i]("setAccount", z), r = ["widget.subiz.net", "storage.googleapis" + (t = ".com"), "app.sbz.workers.dev", i + "a" + (o = function (k, t) { var n = t <= 6 ? 5 : o(k, t - 1) + o(k, t - 3); return k !== t ? n : n.toString(32) })(20, 20) + t, i + "b" + o(30, 30) + t, i + "c" + o(40, 40) + t], (y = function (k) { var t, n; s._subiz_init_2094850928430 || r[k] && (t = u.createElement(b), n = u.getElementsByTagName(b)[0], t.async = 1, t.src = "https://" + r[k] + "/sbz/app.js?accid=" + z, n.parentNode.insertBefore(t, n), setTimeout(y, 2e3, k + 1)) })(0)) }(window, document, "script", "subiz", "acrkhsoandekwahoxsgp")
+     </script>
+     <footer class="footer bg-dark py-5">
+          <div class="container grid grid-3">
+               <div class="address">
+                    <h1>
+                         MyTech
+                    </h1>
+                    <p>Đã đăng kí &copy; 2022</p><br>                    
+                    <p> - Địa chỉ: Trường Chinh, phường 10, Tân Bình <br>
+                         - SĐT: 0909.899.9999 <br>
+                         - Email: ngocnbps24049@fpt.edu.vn
+                    </p>
+               </div>
+               <nav class="mucluc">
+                    <ul>
+                         <li><a href="index.html">Trang chủ</a></li>
+                         <li><a href="features.html">Mô tả</a></li>
+                         <li><a href="docs.html">Tài liệu</a></li>
+                         <li><a href="contact.html">Liên hệ</a></li>
+                         <li><a href="opinion.html">Góp ý</a></li>
+                    </ul>
+               </nav>
+               <div class="social">
+                    <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+               </div>
+          </div>
+     </footer>
+</body>
+
+</html>
